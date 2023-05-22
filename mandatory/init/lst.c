@@ -6,7 +6,7 @@
 /*   By: wonhshin <wonhshin@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 19:36:22 by wonhshin          #+#    #+#             */
-/*   Updated: 2023/05/17 19:36:24 by wonhshin         ###   ########.fr       */
+/*   Updated: 2023/05/22 22:43:20 by wonhshin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ t_node	*create_node(int value)
 	if (!new_node)
 		return (NULL);
 	new_node->value = value;
+	new_node->order = 0;
 	new_node->next = NULL;
 	return (new_node);
 }

@@ -8,7 +8,7 @@ RM = rm -f
 HEADER	=	mandatory/push_swap.h
 BONUS_HEADER = bonus/push_swap_bonus.h
 
-SRCS = mandatory/ready/main.c \
+SRCS = mandatory/ready/push_main.c \
 	mandatory/ready/check.c \
 	mandatory/ready/start.c \
 	mandatory/ready/parsing.c \
